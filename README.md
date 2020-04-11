@@ -8,3 +8,7 @@ Repository destined to store the project developed in the course Clean Architect
 - Employees(id, name)
 - Products(id, name, price)
 - Sales(id, date, unitPrice, quantity, totalPrice, idCustomer, idEmployee, idProduct)
+
+## SalesApp Architecture
+SaleApp-ArchDiagram.png
+![SaleApp-ArchDiagram](resources/SaleApp-ArchDiagram.png)
