@@ -1,4 +1,4 @@
-package clean.archt.spring.studies.sales.app.entity
+package clean.archt.spring.studies.sales.app.entity.domain
 
 import javax.persistence.GeneratedValue
 import javax.persistence.GenerationType
@@ -9,8 +9,6 @@ data class Product(
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
         val id: Long,
-
         val name: String,
-
         val price: Double
 ) : Entity
